@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "Installing node modules with legacy-peer-deps for elasticbeanstalk"
+echo "🛠️ Installing dependencies with --legacy-peer-deps"
+cd /var/app/staging
 npm install --omit=dev --legacy-peer-deps
